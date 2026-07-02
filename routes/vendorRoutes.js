@@ -10,3 +10,5 @@ router.get('/all-vendors', vendorController.getAllVendors);
 router.get('/single-vendor/:id', vendorController.getVendorById);
 
 module.exports = router;
+
+
